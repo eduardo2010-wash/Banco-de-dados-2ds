@@ -12,3 +12,6 @@ CREATE TABLE Compras (
     NomeLivro TEXT NOT NULL,
     FOREIGN KEY (ClienteID) REFERENCES Clientes(ID)
 );
+SELECT * FROM Clientes; 
+SELECT * FROM Clientes;
+SELECT * FROM Compras;
